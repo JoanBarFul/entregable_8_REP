@@ -910,7 +910,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cambia la escala del personaje
+  m_text: Rota el personaje
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -1567,7 +1567,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -1832,16 +1832,16 @@ MonoBehaviour:
   m_FillRect: {fileID: 102012373}
   m_HandleRect: {fileID: 723615863}
   m_Direction: 0
-  m_MinValue: 2
-  m_MaxValue: 5
+  m_MinValue: 0
+  m_MaxValue: 24
   m_WholeNumbers: 0
-  m_Value: 2
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2053795803}
-        m_TargetAssemblyTypeName: SliderScript, Assembly-CSharp
-        m_MethodName: ResizeCube
+        m_TargetAssemblyTypeName: SizeScript, Assembly-CSharp
+        m_MethodName: Rotation
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

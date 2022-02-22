@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SizeScript : MonoBehaviour
 {
-    // Escala el cubo
-    public void ResizeCube(float sizeMultiplier)
-    { transform.localScale = sizeMultiplier * Vector3.one; }
+    // Rota el cubo
+    public void Rotation(float sizeRotation)
+    { gameObject.transform.rotation = Quaternion.Euler( 0, sizeRotation * 15, 0); }
 }
